@@ -1,4 +1,5 @@
 import React from 'react'
+import BtnGradient from './BtnGradient'
 
 const Section2 = () => {
     return (
@@ -10,7 +11,7 @@ const Section2 = () => {
                 <h4 className="w-[60%] leading-relaxed text-lg" >
                     Cronos apps and services connect using IBC, the Inter-Blockchain Communication protocol. This innovation enables you to freely exchange assets and data across sovereign.
                 </h4>
-                <button className="text-black px-14 py-4 gradientBg" >Learn</button>
+                <BtnGradient text="Learn" />
                 <button className="px-14  py-4" >Explore tokens</button>
             </div>
             <div className="space-y-20 gradientText font-bold text-right" >
