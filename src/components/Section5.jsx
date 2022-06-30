@@ -4,7 +4,7 @@ import BtnGradient from './BtnGradient'
 
 const Section5 = () => {
     return (
-        <div className="max-w-full flex my-12 mx-44" >
+        <div className="max-w-full flex my-12 mx-auto" >
             <img src={ico} alt="ico" />
             <div className="my-64 mr-36 " >
                 <h3 className="leading-tight gradientText font-bold text-7xl" >Secured by the Hedron.</h3>

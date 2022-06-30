@@ -105,3 +105,21 @@ body {
   background: rgba(255, 234, 0, 0.25);
   filter: blur(61px);
 }
+
+.lockerCircle {
+  position: absolute;
+  left: 50px;
+  top: 160px;
+  border-radius: 20%;
+  background: rgba(255, 234, 0, 0.25);
+  filter: blur(100px);
+}
+
+.yuanCircle {
+  position: absolute;
+  right: 60px;
+  top: 160px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+  filter: blur(30px);
+}
